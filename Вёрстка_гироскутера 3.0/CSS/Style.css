@@ -1,0 +1,539 @@
+* { box-sizing: border-box; }
+
+body{
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Container {
+    margin: auto;
+    max-width: 100%;
+  }
+
+/*Первый контейнер для номера и кнопки*/
+.container1{
+    background-color: white;
+    width: 100%;
+    min-height: 5vh;
+    padding-top: 25px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.container1-text{
+    padding-left: 3.6%;
+}
+
+.container1-button{
+    position: relative;
+    bottom: 15px;
+    margin-left: 60%;
+    text-decoration: none;
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.container1-button:hover{
+    transform: scale(1.1); 
+    transition: 0.5s; 
+}
+
+.container1-button-text{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  text-align: center;
+}
+
+/* Меню */
+
+.container2{
+  display: flex;
+  border-top: 1px solid black;
+  background-color: white;
+  width: 100%;
+  min-height: 5vh;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  padding-right: 250px;
+  align-items: center;
+}
+
+.container2-Mygiro{
+  font-size: 25px;
+  white-space: nowrap;
+  padding-left: 1.5%;
+}
+
+.container2-menu{
+  list-style: none;
+  display: flex;
+  margin-right: 25px;
+  margin-left: 25%;
+  white-space: nowrap;
+}
+  
+.container2-menu-item{
+  margin: auto;
+  margin-right: 25px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+
+.container2-menu-link{
+  color: black;
+  text-decoration: none;
+}
+
+/* My-giro изображение */
+
+.container3-mygiro-image{
+  display: relative;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+
+}
+
+.container3{
+  position: relative;
+  background-color: black;
+  align-items: center;
+  background: no-repeat center;
+  height: 460px;
+  color: white;
+}
+
+.container3-text-mygiro{
+  display: table;
+  margin: 0 auto;
+  margin-top: -25%;
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+}
+
+.container3-description{
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container3-button{
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 35px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container3-button:hover{
+  transform: scale(1.1); 
+  transition: 0.5s; 
+}
+
+.container3-button-text{
+  color: black;
+  text-decoration: none;
+}
+
+/* Ноши преимущества */
+.container4{
+  background-color: white;
+  width: 100%;
+  text-align: left;
+  padding-top: 70px;
+  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container4-text{
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 16.5%;
+}
+
+.container4-advantages-block{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  text-align: center;
+  padding-left: 11%;
+  }
+
+  .container4-advantages-block-item{
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .container4-advantages-block-image{
+    display: flex;
+    align-items: center;
+  }
+  .container4-advantages-block-text{
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  /* О нас */
+  .container5{
+    background-color: white;
+    min-height: 20vh;
+    align-items: center;
+    padding-left: 16.5%;
+    padding-right: 16.5%;
+  }
+
+  .container5-text-about-us{
+    font-size: 30px;
+    text-align: justify;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .container5-text-about-us-description1{
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .container5-text-about-us-description2{
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  /* Подписка на рассылку */
+
+  .container6{
+    display: flex;
+    width: 100%;
+    min-height: 15vh;
+    background-color: orange;
+    padding-left: 16.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+  }
+
+  .container6-text{
+    
+  }
+
+  .container6-field1{
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 17.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 180px;
+  }
+
+  .container6-field1:hover{
+    cursor: text;
+  }
+
+  .container6-field2{
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 2.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 180px;
+  }
+  
+  .container6-field2:hover{
+    cursor: text;
+  }
+
+   .container6-button-text{
+    color: black;
+    text-decoration: none;
+  }
+
+  .container6-button{
+  display: table;
+  margin: 0 auto;
+  margin-left: 2.5%;
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container6-button:hover{
+  transform: scale(1.1); 
+  transition: 0.5s; 
+}
+
+/* Особенности гирскутеров */
+.container7 {
+  padding-top: 140px;
+  font-size: 25px;
+}
+.container7-feature {
+  font-size: 30px;
+  margin-left: 5%;
+}
+.container7-feature-columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.container7-feature-text {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 5%;
+}
+
+/* Каталог */
+.container8-catalog{
+  padding-top: 140px;
+  align-items: center;
+}
+
+.container8-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+.container8-catalog-title{
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.container8-catalog-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.container8-catalog-menu a{
+  text-decoration: none;
+  color:#000000;
+}
+
+.container8-catalog-menu-item{
+  margin-left: 15px;
+}
+
+.container8-catalog-button{
+  background-color: orange;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/* Товары */
+.container9-stuff{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.items a{
+  text-decoration: none;
+  color: #000000;
+}
+.stuff{
+  align-items: center;
+}
+.stuff img{
+  width: 200px;
+  height: 200px;
+}
+.container9-stuff-title{
+  font-size: 14px;
+  font-weight: bolder;
+  background: #ffa019;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #ffffff;
+}
+.container9-stuff-name{
+  font-size: 16px;
+  font-weight: 300;
+}
+.container9-stuff-price{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Консультанты */
+.container10-consults{
+  padding-top: 220px;
+  font-size: 34px;
+  font-weight: 300;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container10-consults-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container10-consult-info{
+  margin-left: -30px;
+}
+.container10-consult-info img{
+  cursor: pointer;
+}
+.name{
+  font-size: 20px;
+}
+.post{
+  font-size: 12px;
+  font-weight: italic;
+}
+
+.container10-consult-button{
+  background-color: orange;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.container10-consult-button:hover{
+  transform: scale(1.1); 
+  transition: 0.5s; 
+  cursor: pointer;
+}
+
+.svetlana{
+  height: 303px;
+  width: 225px;
+}
+
+/* Бренды */
+.container11-brands{
+  display: flex;
+  align-items: center;
+  max-width: 1580px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 200px;
+}
+.container11-brands p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.container11-brands a{
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+/* Полезная информация */
+.container12-information{
+  padding-top: 180px;
+  font-size: 34px;
+  margin-left: 5%;
+}
+.container12-information-images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container12-information-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.scale:hover{
+  transform: scale(1.1); 
+  transition: 0.5s; 
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Подвал */
+.footer{
+  padding-top: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+  color: #8191a6;
+}
+.top{
+  margin-top: 0px;
+}
+.bottom{
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right a{
+  text-decoration: none;
+  color: #8191a6;
+}
+.Company{
+  margin-left: 35px;
+  font-size: 14px;
+}
+.ForBuyers{
+  margin-left: 35px;
+  font-size: 14px;
+}
+.Help{
+  margin-left: 35px;
+  font-size: 14px;
+}
+.right-title{
+  font-size: 14px;
+  color: #000000;
+}
+
+.Copyright{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  color: #8191a6;
+}
